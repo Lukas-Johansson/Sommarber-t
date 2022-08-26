@@ -1,0 +1,74 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: none;
+}
+
+.container {
+    max-width: 48rem;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bild1 {
+    animation: rotation 1s infinite linear;
+    height: 15rem;
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.bild2 {
+    height: 15rem;
+    width: 50rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rotate {
+    animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+nav {
+    color: #ffffff;
+    background-color: #67C0B6;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0rem 0rem 0.5rem #2e2e2e;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+h1, h2, h3, h4, p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.2rem;
+}
